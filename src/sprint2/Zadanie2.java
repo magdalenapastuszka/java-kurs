@@ -14,7 +14,7 @@ public class Zadanie2 {
 
   System.out.println("Enter your height in meters.");
   double heigh = scanner.nextDouble();
-  scanner.close();
+  //scanner.close();
 
   double result = weight / Math.pow(heigh, 2);
 

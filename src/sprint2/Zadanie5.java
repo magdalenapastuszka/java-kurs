@@ -19,7 +19,7 @@ public class Zadanie5 {
       A = scanner.nextInt();
     }
 
-    scanner.close();
+    //scanner.close();
     int sum = 0;
 
     //The sum of the sequence of numbers from A to B
