@@ -13,6 +13,7 @@ public class Sprint2Main {
     Zadanie1.zadanie1h();
     Zadanie2.main();
     Zadanie3.main();
+    Zadanie4.main();
   }
 
 }
