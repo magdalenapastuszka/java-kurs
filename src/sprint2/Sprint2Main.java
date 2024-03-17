@@ -14,6 +14,7 @@ public class Sprint2Main {
     Zadanie2.main();
     Zadanie3.main();
     Zadanie4.main();
+    Zadanie5.main();
   }
 
 }
