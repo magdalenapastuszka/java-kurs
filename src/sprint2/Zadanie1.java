@@ -91,8 +91,8 @@ public class Zadanie1 {
     Scanner scanner = new Scanner(System.in);
     double x = scanner.nextDouble();
     //scanner.close();
-    double pierwiastek = Math.sqrt(x);
-    System.out.println("The square root of a number " + x + " is " + pierwiastek);
+    double square = Math.sqrt(x);
+    System.out.println("The square root of a number " + x + " is " + square);
   }
 
   public static void zadanie1h(){

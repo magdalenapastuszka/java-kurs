@@ -3,9 +3,9 @@ package sprint2;
 public class Zadanie9MyNumber {
   private double value;
 
-  public void myNumber(double value) {
+  public Zadanie9MyNumber(double value) {
     this.value = value;
-    isOdd();
+    System.out.println(isOdd());
     isEven();
     sqrt();
 
@@ -23,21 +23,25 @@ public class Zadanie9MyNumber {
     return Math.sqrt(value);
   }
 
-//  public MyNumber pow(MyNumber pow) {
-//    return new MyNumber(Math.pow(value, pow.value));
-//  }
-//
-//  public MyNumber add(MyNumber otherValue) {
-//    return new MyNumber(value + otherValue.value);
-//  }
-//
-//  public MyNumber subract(MyNumber otherValue) {
-//    return new MyNumber(value - otherValue.value);
-//  }
-
-  @Override
-  public String toString() {
-    return String.valueOf(value);
+  public double getValue(){
+    return value;
   }
+
+  public Zadanie9MyNumber pow(Zadanie9MyNumber pow) {
+    return new Zadanie9MyNumber(Math.pow(value, pow.value));
+  }
+
+  public Zadanie9MyNumber add(Zadanie9MyNumber otherValue) {
+    return new Zadanie9MyNumber(value + otherValue.value);
+  }
+
+  public Zadanie9MyNumber subract(Zadanie9MyNumber otherValue) {
+    return new Zadanie9MyNumber(value - otherValue.value);
+  }
+
+//  @Override
+//  public String toString() {
+//    return String.valueOf(value);
+//  }
 
 }
